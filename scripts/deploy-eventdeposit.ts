@@ -14,8 +14,8 @@ async function main() {
   // Set admin to deployer address
   const admin = deployer.address;
 
-  // Set redemption deadline to 19th Oct 2025 at 8:40 CET (7:40 UTC)
-  const redemptionDeadline = Math.floor(new Date('2025-10-19T07:40:00Z').getTime() / 1000);
+  // Set redemption deadline to 20th Oct 2025 at 10:00 CET (8:00 UTC)
+  const redemptionDeadline = Math.floor(new Date('2025-10-20T08:00:00Z').getTime() / 1000);
   const deadlineDate = new Date(redemptionDeadline * 1000);
 
   console.log("Admin address:", admin);
